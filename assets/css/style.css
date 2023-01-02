@@ -1,0 +1,49 @@
+/* 
+
+visibility: hidden;
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    max-width: 1440px;
+}
+
+form{
+    background-color: #1c272b;
+    max-width: 25vw;
+    margin: 0 auto;
+    padding: 2vh 1vw 4vh 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__buttons__Kopf{
+    background-color: #51bb70;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding: 2vh 0;
+}
+
+.section__buttons__Kopf>a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.section__buttons__Kopf>span{
+    background-color: white;
+    position: absolute;
+    top:2vh;
+    height: 6.8vh;
+    width: 2px;
+}
