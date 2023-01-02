@@ -27,23 +27,26 @@ form{
 }
 
 .section__buttons__Kopf{
-    background-color: #51bb70;
     display: flex;
     justify-content: space-around;
     font-size: 1rem;
-    padding: 2vh 0;
+    
 }
 
 .section__buttons__Kopf>a{
-    background-color: red;
+    background-color: #51bb70;
     color: white;
     text-decoration: none;
+    width: 15vw;
+    height: 8vh;
+    text-align: center;
+    padding-top: 2.5vh;
+    
 }
 
-.section__buttons__Kopf>span{
-    background-color: white;
-    position: absolute;
-    top:2vh;
-    height: 6.8vh;
-    width: 2px;
+
+
+.section__buttons__Kopf>a:nth-of-type(1){
+    border-right: 
+    2px solid white;
 }
