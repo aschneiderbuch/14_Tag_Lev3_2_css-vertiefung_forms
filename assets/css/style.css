@@ -60,13 +60,11 @@ form{
 }
 
 .section__input__felder>article{
-    background-color: red;
     display: flex;
     justify-content: space-between;
 }
 
 .section__input__felder>article>input{
-    background-color: green;
     width: 49%;                 /* *damit schmaler Streife Platz ist */
 }
 
@@ -78,4 +76,23 @@ input{
     border: 2px solid white ;
     font-size: 0.8rem;
     padding: 1vh 0 1vh 1vw;
+}
+
+.section__input__felder>a{
+    display: block;
+    color: #51bb70;
+text-align: right;
+font-size: 0.9rem;
+}
+
+.button__submitUndLogin{
+    margin-top: 2vh;
+    border: 0.5px solid white;
+    color: white;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+    background-color: #51bb70;
+    padding: 3vh;
+    font-weight: bold;      /* * text wird dick */
+
 }
