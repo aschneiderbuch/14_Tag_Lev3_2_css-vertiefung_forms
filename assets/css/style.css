@@ -1,5 +1,8 @@
 /*  !!! Vorsicht css gilt für index.html und Login.html */
 
+/* ??? text farbe beim Eingeben in Input ist zu dunkel 
+??? wie ändern  */
+
 /* 
 
 visibility: hidden;
@@ -76,6 +79,7 @@ input{
     border: 2px solid white ;
     font-size: 0.8rem;
     padding: 1vh 0 1vh 1vw;
+    
 }
 
 .section__input__felder>a{
