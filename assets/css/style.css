@@ -45,6 +45,7 @@ form{
     height: 8vh;
     text-align: center;
     padding-top: 2.5vh;
+    
 }
 
 .section__buttons__Kopf>a:hover{
@@ -62,6 +63,9 @@ form{
     margin: 5vh 0;
 }
 
+/* ************** articel in Login.html auskommentiert und deshalb nicht sichtbar 
+* wie geht es mit hidden ? */
+
 .section__input__felder>article{
     display: flex;
     justify-content: space-between;
@@ -72,6 +76,8 @@ form{
 }
 
 
+/* ******** die Texteingabe Farbe ist zu dunkel,
+* wie geht es auf heller zu stellen ???  */
 input{
     width: 100%;
     margin-bottom: 2vh;
@@ -81,6 +87,9 @@ input{
     padding: 1vh 0 1vh 1vw;
     
 }
+
+/* *************+ password vergessen Text in index.html auskommentiert, deshalb nicht sichtbar
+* wie geht es mit hidden ??? */
 
 .section__input__felder>a{
     display: block;
@@ -100,3 +109,4 @@ font-size: 0.9rem;
     font-weight: bold;      /* * text wird dick */
 
 }
+
