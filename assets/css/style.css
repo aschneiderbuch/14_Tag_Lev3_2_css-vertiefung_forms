@@ -41,12 +41,22 @@ form{
     height: 8vh;
     text-align: center;
     padding-top: 2.5vh;
-    
+   
 }
 
-
+.section__buttons__Kopf>a:hover{
+    background-color: #68f43d;
+}
 
 .section__buttons__Kopf>a:nth-of-type(1){
     border-right: 
     2px solid white;
+}
+
+.ueberschrift__text{
+    color: white;
+    font-size: 2rem ;
+    text-align: center;
+    margin: 5vh 0;
+
 }
